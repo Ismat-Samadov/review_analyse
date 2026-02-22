@@ -1,0 +1,140 @@
+slug,name,company_url,category_slug,category_name,category_label,rating_value,rating_label,rating_stars,review_count,photo_url
+courir,Courir,https://beledci.az/courir,apparel-store,Geyim mağazaları,Geyim mağazası,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6138743bec3bb.webp
+go-sport,GO Sport,https://beledci.az/go-sport,apparel-store,Geyim mağazaları,Geyim mağazası,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61387431875ce.webp
+zara,ZARA,https://beledci.az/zara,apparel-store,Geyim mağazaları,Geyim mağazası,1.0,Aşağı,1,8,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_6783fbd388579.webp
+azerbaycan-beynelxalq-banki,ABB,https://beledci.az/azerbaycan-beynelxalq-banki,bank,Banklar,Bank,1.0,Aşağı,1,16,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa56243b7e.webp
+azpulmat,Azpulmat,https://beledci.az/azpulmat,bank,Banklar,Bank,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_687d2580b812f.webp
+bank-respublika,Bank Respublika,https://beledci.az/bank-respublika,bank,Banklar,Bank,2.0,Aşağı,2,8,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6138734eab0c4.webp
+bank-of-baku,Bank of Baku,https://beledci.az/bank-of-baku,bank,Banklar,Bank,1.5,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa587c46b1.webp
+birbank,Birbank - Birkart,https://beledci.az/birbank,bank,Banklar,Bank,2.0,Aşağı,2,8,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6316722de786e.webp
+express-bank,Express Bank,https://beledci.az/express-bank,bank,Banklar,Bank,1.0,Aşağı,1,3,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_66786a136d8eb.webp
+kapital-bank,Kapital Bank,https://beledci.az/kapital-bank,bank,Banklar,Bank,1.0,Aşağı,1,52,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6138732d5f518.webp
+leobank,Leobank,https://beledci.az/leobank,bank,Banklar,Bank,1.5,Aşağı,1,121,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_624d902b43211.webp
+manato-az,Manato.az,https://beledci.az/manato-az,bank,Banklar,Bank,0.0,Yoxdur,0,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_68bad3ee88adf.webp
+rabitabank,Rabitəbank,https://beledci.az/rabitabank,bank,Banklar,Bank,1.5,Aşağı,1,20,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61e2c1d12e99e.webp
+unibank,Unibank,https://beledci.az/unibank,bank,Banklar,Bank,1.0,Aşağı,1,10,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6138733dc8b18.webp
+yelobank,Yelo Bank,https://beledci.az/yelobank,bank,Banklar,Bank,1.5,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_627172c2931ed.webp
+adore-perfumery,Adore Perfumery & Cosmetics,https://beledci.az/adore-perfumery,beauty,Gözəllik və baxım,Gözəllik və baxım xidməti,1.0,Aşağı,1,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6271913c547a2.webp
+bahar-store,Bahar Store,https://beledci.az/bahar-store,beauty,Gözəllik və baxım,Gözəllik və baxım xidməti,1.0,Aşağı,1,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_680688469c85d.webp
+kiko-milano,Kiko Milano,https://beledci.az/kiko-milano,beauty,Gözəllik və baxım,Gözəllik və baxım xidməti,5.0,Əla,5,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_692c68412073f.webp
+rossmann,Rossmann,https://beledci.az/rossmann,beauty,Gözəllik və baxım,Gözəllik və baxım xidməti,1.0,Aşağı,1,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_682e4912a4542.webp
+166-cargo,166 Karqo,https://beledci.az/166-cargo,cargo,Karqo,Karqo şirkəti,1.0,Aşağı,1,64,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61f671a5113d2.webp
+expargo,Expargo,https://beledci.az/expargo,cargo,Karqo,Karqo şirkəti,1.0,Aşağı,1,6,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_659d3cc9e2116.webp
+kargolux,Kargolux,https://beledci.az/kargolux,cargo,Karqo,Karqo şirkəti,1.0,Aşağı,1,4,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_658b0ee75f4ac.webp
+limak,Limak,https://beledci.az/limak,cargo,Karqo,Karqo şirkəti,1.0,Aşağı,1,9,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_677bbda0cb954.webp
+mover,Mover.az,https://beledci.az/mover,cargo,Karqo,Karqo şirkəti,1.0,Aşağı,1,4,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613781305c01b.webp
+starex,Starex,https://beledci.az/starex,cargo,Karqo,Karqo şirkəti,1.5,Aşağı,1,23,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa4c480c20.webp
+azercell,Azercell,https://beledci.az/azercell,carrier,Mobil operatorlar,Mobil operator,1.0,Aşağı,1,31,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa68013d38.webp
+bakcell,Bakcell,https://beledci.az/bakcell,carrier,Mobil operatorlar,Mobil operator,1.0,Aşağı,1,163,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa5ad4e408.webp
+nar,Nar Mobile,https://beledci.az/nar,carrier,Mobil operatorlar,Mobil operator,1.5,Aşağı,1,107,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613531a23e3c4.webp
+lanset,Lanset,https://beledci.az/lanset,clinics,Tibb mərkəzləri,Tibb mərkəzi,3.0,Orta,3,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/default.jpg
+logman-klinika,Logman Klinikasi,https://beledci.az/logman-klinika,clinics,Tibb mərkəzləri,Tibb mərkəzi,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/default.jpg
+salutem-dermatoloji-klinika,Salutem Dermatoloji Klinika,https://beledci.az/salutem-dermatoloji-klinika,clinics,Tibb mərkəzləri,Tibb mərkəzi,2.0,Aşağı,2,4,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_62719852679c6.webp
+saglam-aile,Sağlam Ailə Klinikası,https://beledci.az/saglam-aile,clinics,Tibb mərkəzləri,Tibb mərkəzi,0.0,Yoxdur,0,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67ddccc198edd.webp
+code-academy,Code Academy,https://beledci.az/code-academy,education,Tədris mərkəzləri,Tədris mərkəzi,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_673a1e0625145.webp
+step-it,STEP IT Academy,https://beledci.az/step-it,education,Tədris mərkəzləri,Tədris mərkəzi,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_673a1d905e601.webp
+baku-electronics,Baku Electronics,https://beledci.az/baku-electronics,electronics-store,Elektronika,Elektronika mağazası,1.0,Aşağı,1,55,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67812f36b07e1.webp
+bytelecom,Bytelecom,https://beledci.az/bytelecom,electronics-store,Elektronika,Elektronika mağazası,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_68f7d84728f13.webp
+kontakt-home,Kontakt Home,https://beledci.az/kontakt-home,electronics-store,Elektronika,Elektronika mağazası,1.0,Aşağı,1,121,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61328bde942b3.webp
+maxiaz,Maxi.az,https://beledci.az/maxiaz,electronics-store,Elektronika,Elektronika mağazası,1.0,Aşağı,1,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613784d7e8fbb.webp
+music-gallery,Music Gallery,https://beledci.az/music-gallery,electronics-store,Elektronika,Elektronika mağazası,1.5,Aşağı,1,14,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_62e38c7935ca3.webp
+optimal,Optimal,https://beledci.az/optimal,electronics-store,Elektronika,Elektronika mağazası,0.0,Yoxdur,0,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61328c2f18417.webp
+world-telecom,World Telecom,https://beledci.az/world-telecom,electronics-store,Elektronika,Elektronika mağazası,5.0,Əla,5,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_667869fece360.webp
+irshad,İrşad,https://beledci.az/irshad,electronics-store,Elektronika,Elektronika mağazası,1.0,Aşağı,1,24,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61328c8a9a9e4.webp
+baku-mall,Baku Mall,https://beledci.az/baku-mall,entertainment,Əyləncə,Əyləncə,2.0,Aşağı,2,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6272c8bfd9ee8.jpg
+cinemastercard,CineMastercard,https://beledci.az/cinemastercard,entertainment,Əyləncə,Əyləncə,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_673bdef8e6936.webp
+fomo-club,Fomo Club,https://beledci.az/fomo-club,entertainment,Əyləncə,Əyləncə,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_6883f4bf11a90.webp
+park-cinema,Park Cinema,https://beledci.az/park-cinema,entertainment,Əyləncə,Əyləncə,1.0,Aşağı,1,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_673bdf23442b5.webp
+chirag-plaza-hotel,Chirag Plaza Hotel,https://beledci.az/chirag-plaza-hotel,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c5bb26c3.webp
+dreamland-golf-hotel,Dreamland Golf Hotel,https://beledci.az/dreamland-golf-hotel,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c5d706f2.webp
+excelsior-hotel-spa,Excelsior Hotel & Spa,https://beledci.az/excelsior-hotel-spa,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c5aa1022.webp
+fairmont-hotel,Fairmont Hotel,https://beledci.az/fairmont-hotel,hotel,Otellər,Otel,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c526a901.webp
+hilton,Hilton,https://beledci.az/hilton,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c50b97e9.webp
+holiday-inn,Holiday Inn,https://beledci.az/holiday-inn,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c5367c3e.webp
+hyatt-regency-baku,Hyatt Regency Baku,https://beledci.az/hyatt-regency-baku,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c55002f7.webp
+ibis-hotel,Ibis Hotel,https://beledci.az/ibis-hotel,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c52183e6.webp
+intercontinental,Intercontinental,https://beledci.az/intercontinental,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c562dcaf.webp
+jw-marriott-absheron-baku,JW Marriott Absheron Baku,https://beledci.az/jw-marriott-absheron-baku,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c4f7f2fa.webp
+lankaran-springs-resort,Lənkəran Springs Resort,https://beledci.az/lankaran-springs-resort,hotel,Otellər,Otel,3.0,Orta,3,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61484b4b8196a.webp
+marriott-hotel-boulevard,Marriott Hotel Boulevard,https://beledci.az/marriott-hotel-boulevard,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c53b2e08.webp
+parkside,Parkside,https://beledci.az/parkside,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c57617e8.webp
+ramada-by-wyndham,Ramada by Wyndham,https://beledci.az/ramada-by-wyndham,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c5ca0be7.webp
+relax-istirahet-merkezi,Relax İstirahət Mərkəzi,https://beledci.az/relax-istirahet-merkezi,hotel,Otellər,Otel,2.0,Aşağı,2,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_629dc7ccbccff.webp
+sapphire-city-hotel,Sapphire City Hotel,https://beledci.az/sapphire-city-hotel,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c598fe57.webp
+shamakhi-palace-sharadil,Shamakhi Palace Sharadil,https://beledci.az/shamakhi-palace-sharadil,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61484b3bd1a18.webp
+the-merchant-baku,The Merchant Baku,https://beledci.az/the-merchant-baku,hotel,Otellər,Otel,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67411c5885da3.webp
+aile-net,Ailə NET,https://beledci.az/aile-net,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,3,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67ddcfcac9727.webp
+alfanet,Alfanet,https://beledci.az/alfanet,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,29,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6272c8e823950.jpg
+azfibernet,AzFiberNet,https://beledci.az/azfibernet,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61386d17a126c.webp
+azeronline,Azeronline,https://beledci.az/azeronline,internet-provider,İnternet provayderlər,İnternet provayder,2.0,Aşağı,2,237,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613780c8af7db.webp
+aztelekom,Aztelekom,https://beledci.az/aztelekom,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,82,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6137817b511ed.webp
+baktelecom,Baktelecom,https://beledci.az/baktelecom,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,28,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_62a1de04e5f64.webp
+citynet,CityNet,https://beledci.az/citynet,internet-provider,İnternet provayderlər,İnternet provayder,1.5,Aşağı,1,81,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6272da8e9feed.webp
+katv1,KATV1,https://beledci.az/katv1,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,41,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61378184cc000.webp
+megalink,Megalink,https://beledci.az/megalink,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,101,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6272db179a934.webp
+netpoint,Netpoint,https://beledci.az/netpoint,internet-provider,İnternet provayderlər,İnternet provayder,3.0,Orta,3,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61389d5911b4b.webp
+shark-telecom,Shark Telecom,https://beledci.az/shark-telecom,internet-provider,İnternet provayderlər,İnternet provayder,1.0,Aşağı,1,34,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_62a1de0f9aa0b.webp
+alices-cafe,Alice's Cafe,https://beledci.az/alices-cafe,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104f711169.webp
+baccanale,Baccanale,https://beledci.az/baccanale,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104fc4c4fb.webp
+bahar-cafe,Bahar Cafe,https://beledci.az/bahar-cafe,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_673a205780cc5.webp
+baku-cafe,Baku Cafe,https://beledci.az/baku-cafe,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_6668e7725b973.webp
+baribal,Baribal,https://beledci.az/baribal,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67f2a59f428c6.webp
+barista-chef,Barista & Chef,https://beledci.az/barista-chef,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6134ce69f31d8.webp
+basilic-restaurant,Basilic Restaurant & Lounge,https://beledci.az/basilic-restaurant,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104f2ed57e.webp
+bella-pizza,Bella Pizza,https://beledci.az/bella-pizza,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104f9ca95a.webp
+big-chefs,Big Chefs,https://beledci.az/big-chefs,restaurant,Restoranlar,Restoran,4.0,Yaxşı,4,3,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61321536d99ac.webp
+birikidoner,Bir-İki Döner,https://beledci.az/birikidoner,restaurant,Restoranlar,Restoran,3.0,Orta,3,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6134c5fc8b2af.webp
+boho,Boho Tea Room,https://beledci.az/boho,restaurant,Restoranlar,Restoran,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61352f31b3b05.webp
+bomond,Bomond,https://beledci.az/bomond,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104db08db2.webp
+bonbon,Bonbon Cafe,https://beledci.az/bonbon,restaurant,Restoranlar,Restoran,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_632427277c1f9.webp
+borani,Borani,https://beledci.az/borani,restaurant,Restoranlar,Restoran,2.0,Aşağı,2,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613784535c0e4.webp
+cest-la-vie,C'est La Vie,https://beledci.az/cest-la-vie,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104f57f781.webp
+cafe-botanist,Cafe Botanist,https://beledci.az/cafe-botanist,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_6668e6cf8d3c0.webp
+cafe-city,Cafe City,https://beledci.az/cafe-city,restaurant,Restoranlar,Restoran,3.5,Orta,3,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6131db296c035.webp
+central-baku,Central Baku,https://beledci.az/central-baku,restaurant,Restoranlar,Restoran,2.5,Aşağı,2,3,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_63f8d198c2f6f.webp
+champusique,Champusique,https://beledci.az/champusique,restaurant,Restoranlar,Restoran,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_68fe4daa5b491.webp
+chayki,Chayki (Чайки),https://beledci.az/chayki,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104d254719.webp
+chinar-restaurant,Chinar Restoran,https://beledci.az/chinar-restaurant,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_673a20dfedb17.webp
+cinnabon,Cinnabon Cafe,https://beledci.az/cinnabon,restaurant,Restoranlar,Restoran,1.0,Aşağı,1,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_632426c7adb8a.webp
+circle-restaurant-music-hall,Circle Restaurant & Music hall,https://beledci.az/circle-restaurant-music-hall,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_674104ea41f30.webp
+coffee-lea,CofeeLea,https://beledci.az/coffee-lea,restaurant,Restoranlar,Restoran,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_6668e778cd8e1.webp
+atv-plus,ATV Plus,https://beledci.az/atv-plus,services,Xidmətlər,Xidmət,1.0,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_66786a25a965a.webp
+azza,AZZA,https://beledci.az/azza,services,Xidmətlər,Xidmət,1.5,Aşağı,1,34,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61377fcfcec8a.webp
+ali-nino,Ali & Nino,https://beledci.az/ali-nino,services,Xidmətlər,Xidmət,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_673a22dfdcb1e.webp
+apar,Apar,https://beledci.az/apar,services,Xidmətlər,Xidmət,5.0,Əla,5,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_688b9114b9bfd.webp
+auskoln,Ausköln,https://beledci.az/auskoln,services,Xidmətlər,Xidmət,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_688ccaea4dbff.webp
+baki-kart,Bakı Kart,https://beledci.az/baki-kart,services,Xidmətlər,Xidmət,1.0,Aşağı,1,25,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_658d5abc0c5e5.webp
+biridea,Biridea Marketinq Agentliyi,https://beledci.az/biridea,services,Xidmətlər,Xidmət,5.0,Əla,5,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_6873c113a74c9.webp
+umico,Birmarket (Umico),https://beledci.az/umico,services,Xidmətlər,Xidmət,1.0,Aşağı,1,95,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_6873970a96350.webp
+bolt-food,Bolt Food,https://beledci.az/bolt-food,services,Xidmətlər,Xidmət,1.0,Aşağı,1,54,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6140966748c80.webp
+euroclima,EuroClima,https://beledci.az/euroclima,services,Xidmətlər,Xidmət,3.5,Orta,3,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_629dc7ef49da6.webp
+hesab-az,Hesab.az,https://beledci.az/hesab-az,services,Xidmətlər,Xidmət,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa529b4ac4.webp
+hyundai,Hyundai Auto,https://beledci.az/hyundai,services,Xidmətlər,Xidmət,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_627297270e517.webp
+million,MilliÖN,https://beledci.az/million,services,Xidmətlər,Xidmət,1.0,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_62718fc86cd01.webp
+temu,Temu,https://beledci.az/temu,services,Xidmətlər,Xidmət,1.5,Aşağı,1,3,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_688b909910cf1.webp
+tebib,TƏBİB,https://beledci.az/tebib,services,Xidmətlər,Xidmət,1.5,Aşağı,1,19,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6137996e80057.webp
+wolt,Wolt,https://beledci.az/wolt,services,Xidmətlər,Xidmət,1.0,Aşağı,1,76,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6131d9d0822ab.webp
+itciket,iTicket.az,https://beledci.az/itciket,services,Xidmətlər,Xidmət,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67781a8ca7d92.webp
+m10,m10,https://beledci.az/m10,services,Xidmətlər,Xidmət,1.0,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa4a70670f.webp
+ipeksu,İpəksu,https://beledci.az/ipeksu,services,Xidmətlər,Xidmət,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa48e61b98.webp
+almarket,Al Market,https://beledci.az/almarket,supermarket,Supermarketlər,Supermarket,1.0,Aşağı,1,90,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_62a1de0a79491.webp
+araz-supermarket,Araz Supermarket,https://beledci.az/araz-supermarket,supermarket,Supermarketlər,Supermarket,1.5,Aşağı,1,91,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613da3df561f4.webp
+bazar-store,Bazarstore,https://beledci.az/bazar-store,supermarket,Supermarketlər,Supermarket,1.0,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa5a230c4c.webp
+bee-gross,Bee Gross,https://beledci.az/bee-gross,supermarket,Supermarketlər,Supermarket,3.5,Orta,3,4,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_64033dd03ad43.webp
+bolmart,Bolmart,https://beledci.az/bolmart,supermarket,Supermarketlər,Supermarket,1.0,Aşağı,1,12,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_666aa5cd3e88d.webp
+bravo,Bravo,https://beledci.az/bravo,supermarket,Supermarketlər,Supermarket,1.5,Aşağı,1,52,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6134c4d65a3d5.webp
+grandmart,Grandmart,https://beledci.az/grandmart,supermarket,Supermarketlər,Supermarket,1.5,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_64bfcbf800b66.webp
+neptun-supermarket,Neptun Supermarket,https://beledci.az/neptun-supermarket,supermarket,Supermarketlər,Supermarket,1.0,Aşağı,1,4,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_633d6fc03854d.webp
+oba-market,Oba Market,https://beledci.az/oba-market,supermarket,Supermarketlər,Supermarket,1.5,Aşağı,1,44,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_637e12f2b65ee.webp
+rahat-supermarket,Rahat Supermarket,https://beledci.az/rahat-supermarket,supermarket,Supermarketlər,Supermarket,1.5,Aşağı,1,7,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613da3ec4af8c.webp
+spar,Spar Supermarket,https://beledci.az/spar,supermarket,Supermarketlər,Supermarket,3.0,Orta,3,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_692b1da18b258.webp
+xozyayushka,Xozyayuşka (Хозяюшка),https://beledci.az/xozyayushka,supermarket,Supermarketlər,Supermarket,0.0,Yoxdur,0,0,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_67826f1156f5e.webp
+zoobastik,Zoobastik - Zoomaqazin,https://beledci.az/zoobastik,supermarket,Supermarketlər,Supermarket,5.0,Əla,5,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_65f04efe26890.webp
+189-taxi,189 Taxi,https://beledci.az/189-taxi,taxi,Taksi,Taksi şirkəti,2.5,Aşağı,2,9,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613cb4cb017d9.webp
+bolt,Bolt,https://beledci.az/bolt,taxi,Taksi,Taksi şirkəti,1.0,Aşağı,1,338,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_61377f70b267d.webp
+uber,Uber,https://beledci.az/uber,taxi,Taksi,Taksi şirkəti,1.0,Aşağı,1,35,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_613cb4be42367.webp
+yango,Yango,https://beledci.az/yango,taxi,Taksi,Taksi şirkəti,1.0,Aşağı,1,36,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_667701fc2f9c8.webp
+azal,AZAL,https://beledci.az/azal,tourism,Turizm,Turizm şirkəti,1.0,Aşağı,1,54,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6134c3d69fe0a.webp
+buta-airways,Buta Airways,https://beledci.az/buta-airways,tourism,Turizm,Turizm şirkəti,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6134c46d429a8.webp
+no-limits-travel,No Limits Travel,https://beledci.az/no-limits-travel,tourism,Turizm,Turizm şirkəti,1.0,Aşağı,1,1,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/up_687398fe61268.webp
+turkish-airlines,Turkish Airlines,https://beledci.az/turkish-airlines,tourism,Turizm,Turizm şirkəti,3.5,Orta,3,2,https://beledci.s3.us-east-1.amazonaws.com/resources/company/photo/ca_6134c423c7099.webp
