@@ -77,7 +77,6 @@ def build_company_metrics(banks_companies, bank_reviews, bildir_banks):
     bank_reviews = bank_reviews.copy()
     bildir_banks = bildir_banks.copy()
 
-    # Per-bank review counts and avg rating from reviews
     banks_companies["name"] = banks_companies["name"].fillna("")
     slug_to_name = banks_companies.set_index("slug")["name"].to_dict()
     bank_reviews["bank_name"] = bank_reviews["slug"].map(slug_to_name).fillna(bank_reviews["slug"])
@@ -90,7 +89,6 @@ def build_company_metrics(banks_companies, bank_reviews, bildir_banks):
     )
     review_stats["name_key"] = review_stats["bank_name"].apply(_norm_name)
 
-    # Low-rating share from per-review data
     bank_reviews["low_rating"] = bank_reviews["rating"].isin([1, 2]).astype(int)
     low_stats = (
         bank_reviews.groupby("bank_name")["low_rating"]
@@ -100,7 +98,6 @@ def build_company_metrics(banks_companies, bank_reviews, bildir_banks):
     )
     low_stats["name_key"] = low_stats["bank_name"].apply(_norm_name)
 
-    # Per-bank overall rating and total review counts
     bildir_banks["name"] = bildir_banks["name"].fillna("")
     bildir_banks["overall_rating"] = _to_numeric(bildir_banks["overall_rating"])
     bildir_banks["total_reviews"] = _to_numeric(bildir_banks["total_reviews"]).fillna(0).astype(int)
@@ -108,7 +105,6 @@ def build_company_metrics(banks_companies, bank_reviews, bildir_banks):
     overall_stats.rename(columns={"overall_rating": "avg_rating"}, inplace=True)
     overall_stats["name_key"] = overall_stats["name"].apply(_norm_name)
 
-    # Combine on normalized names (best-effort)
     combined = pd.merge(
         overall_stats,
         review_stats,
@@ -169,7 +165,6 @@ def chart_top_reviewed(companies: pd.DataFrame):
 
 
 def chart_risk_matrix(companies: pd.DataFrame):
-    # Risk = high low-rating share with material volume
     df = companies.copy()
     df = df[df["low_share"].notna()]
     if df.empty:
@@ -183,7 +178,7 @@ def chart_risk_matrix(companies: pd.DataFrame):
     ax.scatter(df["reviews_total"], df["low_share"] * 100, alpha=0.7, color="#EF4444")
     ax.set_title("Reputation Risk Matrix")
     ax.set_xlabel("Total reviews (combined)")
-    ax.set_ylabel("Low-rating share (1–2 stars, %) ")
+    ax.set_ylabel("Low-rating share (1–2 stars, %)")
     save_chart(fig, "bank_risk_matrix.png")
 
 
@@ -233,24 +228,19 @@ def compute_business_insights(companies: pd.DataFrame, bank_reviews: pd.DataFram
     total_banks = len(companies)
     insights["total_banks"] = total_banks
 
-    # Concentration: share of top 3 banks by volume
     top3 = companies.head(3)
     total_reviews = companies["reviews_total"].sum() if total_banks else 0
-    top3_share = (top3["reviews_total"].sum() / total_reviews * 100) if total_reviews else 0
-    insights["top3_share"] = top3_share
+    insights["top3_share"] = (top3["reviews_total"].sum() / total_reviews * 100) if total_reviews else 0
 
-    # Reputation risk: banks with high low-rating share and scale
     risk_df = companies[(companies["low_share"].notna()) & (companies["reviews_total"] >= MIN_REVIEWS)].copy()
     risk_df["risk_score"] = (risk_df["low_share"] * 100) * (risk_df["reviews_total"] ** 0.5)
     risk_df = risk_df.sort_values("risk_score", ascending=False)
     insights["top_risk_banks"] = list(risk_df.head(5)["name"])
 
-    # Competitive leaders: highest ratings with scale
     leaders = companies[(companies["reviews_total"] >= MIN_REVIEWS) & (companies["rating_weighted"].notna())]
     leaders = leaders.sort_values("rating_weighted", ascending=False).head(5)
     insights["top_rated_banks"] = list(leaders["name"])
 
-    # Operational pain points: top keywords
     if bank_reviews.empty:
         insights["top_keywords"] = []
     else:
@@ -262,61 +252,66 @@ def compute_business_insights(companies: pd.DataFrame, bank_reviews: pd.DataFram
     return insights
 
 
+def format_list(items):
+    return ", ".join(items) if items else "N/A"
+
+
 def write_readme(companies: pd.DataFrame, bank_reviews: pd.DataFrame, insights: dict):
     both_sources = int((companies["has_overall"] & companies["has_review"]).sum())
 
-    top_bank_line = "- Most reviewed bank: N/A"
+    top_bank_line = "Most reviewed bank: N/A"
     if not companies.empty:
         top_bank = companies.iloc[0]
-        top_bank_line = f"- Most reviewed bank: {top_bank['name']} ({int(top_bank['reviews_total'])} total reviews)"
+        top_bank_line = f"Most reviewed bank: {top_bank['name']} ({int(top_bank['reviews_total'])} total reviews)"
 
-    rating_range_line = "- Rating range (weighted average): N/A"
+    rating_range_line = "Rating range (weighted average): N/A"
     if companies["rating_weighted"].notna().any():
         max_rating = companies["rating_weighted"].max(skipna=True)
         min_rating = companies["rating_weighted"].min(skipna=True)
-        rating_range_line = f"- Rating range (weighted average): {min_rating:.2f} to {max_rating:.2f}"
-
-    top3_share_line = f"- Review volume concentration: top 3 banks account for {insights['top3_share']:.1f}% of all bank reviews"
-
-    risk_banks = ", ".join(insights["top_risk_banks"]) if insights["top_risk_banks"] else "N/A"
-    risk_line = f"- Highest reputation-risk banks (high low-rating share at scale): {risk_banks}"
-
-    leader_banks = ", ".join(insights["top_rated_banks"]) if insights["top_rated_banks"] else "N/A"
-    leader_line = f"- Competitive leaders by rating (>= {MIN_REVIEWS} reviews): {leader_banks}"
-
-    keywords = ", ".join(insights["top_keywords"]) if insights["top_keywords"] else "N/A"
-    keyword_line = f"- Most common complaint keywords: {keywords}"
+        rating_range_line = f"Rating range (weighted average): {min_rating:.2f} to {max_rating:.2f}"
 
     content = f"""# Bank Review Insights (Business-Focused)
 
 This report aggregates bank review data at the **company level** and focuses on business value: reputation risk, customer experience, and competitive positioning.
 
-**Key Insights**
+**Overview**
 - Total banks with reviews: {insights['total_banks']}
 - Banks represented in multiple datasets: {both_sources}
-{top_bank_line}
-{rating_range_line}
-{top3_share_line}
-{risk_line}
-{leader_line}
-{keyword_line}
+- {top_bank_line}
+- {rating_range_line}
+- Review volume concentration: top 3 banks account for {insights['top3_share']:.1f}% of all bank reviews
 
-**Charts (each supports a business insight)**
-1. Review volume concentration by bank
+## 1. Review Volume Concentration
 
 ![Top banks by reviews](charts/bank_top_reviewed.png)
 
-2. Reputation risk matrix (scale vs low-rating share)
+**What this means**
+- The top three banks hold {insights['top3_share']:.1f}% of all reviews, so reputation swings are driven by a small set of brands.
+- Prioritizing CX improvements in these banks yields the highest impact on overall market sentiment.
+
+## 2. Reputation Risk (Scale vs Low-Rating Share)
 
 ![Risk matrix](charts/bank_risk_matrix.png)
 
-3. Competitive positioning for banks with material volume
+**What this means**
+- Banks in the upper-right of the chart combine **high review volume** with **high 1–2 star share**, signaling the highest reputation risk.
+- Highest-risk banks by this dataset: {format_list(insights['top_risk_banks'])}.
+
+## 3. Competitive Positioning (Material Volume Only)
 
 ![Competitive ratings](charts/bank_competitive_ratings.png)
 
-4. Customer experience pain points (keyword frequency)
+**What this means**
+- Only banks with at least {MIN_REVIEWS} reviews are compared to avoid small-sample bias.
+- Rating leaders in this group: {format_list(insights['top_rated_banks'])}.
+
+## 4. Customer Experience Pain Points
 
 ![Keyword themes](charts/bank_keyword_themes.png)
+
+**What this means**
+- Most frequent complaint keywords indicate recurring operational issues: {format_list(insights['top_keywords'])}.
+- These themes are candidates for process fixes, policy updates, or frontline training.
 
 ---
 
